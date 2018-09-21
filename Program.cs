@@ -18,7 +18,7 @@ namespace ejercicios
         }
 
         static void pasca(int val){
-            int lim = val, aux = val, num = 1;
+            int lim = val, aux = val;
             int[,] arre = new int[val+val, val+val];
             for (int i = 0; i < val; i++)
             {
@@ -53,7 +53,7 @@ namespace ejercicios
                 for (int j = 0; j < val*2; j++)
                 {
                     if(arre[i, j] != 0)
-                        Console.Write(arre[i, j]);
+                        Console.Write(arre[i, j]+"");
                     else
                         Console.Write(" ");
                 }
